@@ -1,0 +1,41 @@
+
+body{
+    font-size:18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+}
+
+input{
+    font-size: 1em;
+    background-color: rgba(29, 17, 3, 0.3);
+    color:rgba(243, 233, 214, 0.925);
+}
+
+select,option{
+    font-size: 1em;
+    background-color: rgba(29, 17, 3, 0.3);
+    color:rgba(243, 233, 214, 0.925);
+}
+fieldset{
+    width: 30em;
+    border-color: black;
+    border-width: 0.1em;
+}
+legend{
+    font-style:italic;
+    color: black;
+    font-size: 1em;
+}
+span{
+    margin: 3em;
+}
+#btnSave{
+    font-size: 1em;
+    width: 100%;  
+    margin: 1em 0em 1em 0em;
+    border-color: black;
+    border-width: 0.05em;
+    background-color: rgba(29, 17, 3, 0.3);
+    color:black;
+    font-style: italic;
+}

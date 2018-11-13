@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>customizable page</title>
+    <link href='styles.css' rel='stylesheet' type='text/css' />
+</head>
+
+<body id="page">
+    <form action="" return="false" method="post" name="customize">
+        <fieldset>
+            <legend>customize this webpage and save your choices</legend>
+            <br>
+            page-color&nbsp
+            <select name="colorChoices" id="" >
+                <option name="page-color" value=" " >change page color</option>
+                <option name="page-color" value="#76D7C4" >turquoise</option>
+                <option name="page-color" value="#AAB7B8" >coolgrey</option>
+                <option name="page-color" value="#85C1E9">lightblue</option>
+                <option name="page-color" value="#F08080">lightcoral</option>
+                <option name="page-color" value="#D3ACF5">lavender</option>
+            </select>
+            <span>
+                font-size&nbsp
+                <input name="fontSize" type="number" min=8 max=44 step=2 value="">px
+            </span>
+
+            <input type="button" id="btnSave" name="btnSave" value="save settings for 7 days">
+
+        </fieldset>
+    </form>
+
+    <script src="scriptsCustomPage.js">
+    </script>
+</body>
+
+</html>
